@@ -83,7 +83,7 @@ const TabLayout = () => {
             headerShown: false,
             tabBarIcon: ({ color, focused }) => (
               <TabIcon
-                icon={icons.plus}
+                icon={icons.chatBot}
                 color={color}
                 name="Chatbot"
                 focused={focused}
