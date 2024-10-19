@@ -109,7 +109,7 @@ const EventScreen = () => {
   };
 
   const handleEdit = () => {
-    router.push(`/edit/${eventId}`);
+    router.push(`/editEvent/${eventId}`);
   };
 
   const handleDelete = async () => {

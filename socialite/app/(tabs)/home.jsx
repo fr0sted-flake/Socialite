@@ -108,7 +108,7 @@ const Home = () => {
         }
       />
       <TouchableOpacity
-        onPress={() => router.push("/create")}
+        onPress={() => router.push("/createEvent")}
         className="absolute bottom-5 right-3 bg-secondary px-3 py-2 rounded-lg flex flex-row items-center justify-center shadow-lg"
       >
         <Image

@@ -7,10 +7,10 @@ import {
   Alert,
   ScrollView,
 } from "react-native";
-import { CustomButton, FormField } from "../../components";
-import { useGlobalContext } from "../../context/GlobalProvider";
+import { CustomButton, FormField } from "../components";
+import { useGlobalContext } from "../context/GlobalProvider";
 import axios from "axios";
-import { BASE_URL } from "../../constants";
+import { BASE_URL } from "../constants";
 
 
 const CreateEvent = () => {
