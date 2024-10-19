@@ -30,7 +30,7 @@ const Friends = () => {
   const fetchFriends = async () => {
     setIsLoading(true);
     try {
-      const response = await axios.get(`${BASE_URL}/users/friends`, {
+      const response = await axios.get(`${BASE_URL}/users/get-friends`, {
         headers: { Authorization: `Bearer ${userToken}` },
       });
       setFriends(response.data.friends);
@@ -77,7 +77,7 @@ const Friends = () => {
           <FriendCard
             name={item.name}
             username={item.username}
-            avatar={item.avatar}
+            avatar={item.photoUrl}
           />
         )}
         ListEmptyComponent={() => (
@@ -111,12 +111,7 @@ const Friends = () => {
             />
           </View>
         </View>
-        <SearchInput onChangeText={handleSearch} />
-        <View className="w-full flex-1 pt-5">
-          <Text className="text-lg font-pregular text-gray-100 mb-3">
-            {isSearching ? "Search Results" : "Your Friends"}
-          </Text>
-        </View>
+        <SearchInput onSearch={handleSearch} />
       </View>
       {renderContent()}
     </SafeAreaView>
