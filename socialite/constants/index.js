@@ -1,6 +1,6 @@
 import icons from "./icons";
 import images from "./images";
 
-const BASE_URL = "https://eventify-7uup.vercel.app/api"
+const BASE_URL = "http://10.81.77.147:5000/api"
 
 export { icons, images, BASE_URL};

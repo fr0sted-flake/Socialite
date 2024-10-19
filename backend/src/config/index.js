@@ -1,4 +1,4 @@
-export { default as swaggerConfig } from "./swagger.config.js";
+// export { default as swaggerConfig } from "./swagger.config.js";
 import { config } from "dotenv";
 config();
 
