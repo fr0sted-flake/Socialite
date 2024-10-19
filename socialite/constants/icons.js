@@ -13,6 +13,7 @@ import deleteAccount from "../assets/icons/delete.png"
 import halfArrow from "../assets/icons/half-arrow.png";
 import chatBot from "../assets/icons/chatbot.png";
 import friendIcon from "../assets/icons/friends.png";
+import send from "../assets/icons/send.png";
 
 export default {
   bookmark,
@@ -29,5 +30,6 @@ export default {
   deleteAccount,
   halfArrow,
   chatBot,
-  friendIcon
+  friendIcon,
+  send
 };
