@@ -1,5 +1,5 @@
 {
-  "name": "paymint-server",
+  "name": "socialite-server",
   "version": "1.0.0",
   "description": "Event Management App",
   "main": "index.js",
