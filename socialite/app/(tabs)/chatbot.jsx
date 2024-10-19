@@ -62,7 +62,7 @@ const Registered = () => {
                   Your Registered Events
                 </Text>
                 <Text className="text-2xl font-psemibold text-white">
-                  Eventify
+                  Socialite
                 </Text>
               </View>
 

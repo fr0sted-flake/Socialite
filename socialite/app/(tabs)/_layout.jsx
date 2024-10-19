@@ -61,7 +61,7 @@ const TabLayout = () => {
           }}
         />
         <Tabs.Screen
-          name="registered"
+          name="chatbot"
           options={{
             title: "Registered",
             headerShown: false,
@@ -69,7 +69,7 @@ const TabLayout = () => {
               <TabIcon
                 icon={icons.bookmark}
                 color={color}
-                name="Registered"
+                name="Chatbot"
                 focused={focused}
               />
             ),

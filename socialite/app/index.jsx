@@ -38,7 +38,7 @@ const Welcome = () => {
             <Text className="text-3xl text-white font-bold text-center">
               Discover Endless{"\n"}
               Possibilities with{" "}
-              <Text className="text-secondary-200">Eventify</Text>
+              <Text className="text-secondary-200">Socialite</Text>
             </Text>
 
             {/* <Image
@@ -50,7 +50,7 @@ const Welcome = () => {
 
           <Text className="text-sm font-pregular text-gray-100 mt-7 text-center">
             Embark on a Journey of Limitless
-            Exploration with Eventify
+            Exploration with Socialite
           </Text>
 
           <CustomButton
