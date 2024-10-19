@@ -12,6 +12,7 @@ import eye from "../assets/icons/eye.png";
 import deleteAccount from "../assets/icons/delete.png"
 import halfArrow from "../assets/icons/half-arrow.png";
 import chatBot from "../assets/icons/chatbot.png";
+import friendIcon from "../assets/icons/friends.png";
 
 export default {
   bookmark,
@@ -27,5 +28,6 @@ export default {
   eye,
   deleteAccount,
   halfArrow,
-  chatBot
+  chatBot,
+  friendIcon
 };

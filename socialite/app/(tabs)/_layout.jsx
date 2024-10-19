@@ -67,7 +67,7 @@ const TabLayout = () => {
             headerShown: false,
             tabBarIcon: ({ color, focused }) => (
               <TabIcon
-                icon={icons.bookmark}
+                icon={icons.friendIcon}
                 color={color}
                 name="Friends"
                 focused={focused}
