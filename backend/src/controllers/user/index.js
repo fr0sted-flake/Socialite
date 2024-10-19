@@ -17,6 +17,9 @@ export { default as sendVerificationCode } from "./auth/send-verification-code.j
 export { default as changePassword } from "./edit/change-password.js";
 export { default as editUser } from "./edit/edit-user.js";
 
+// FRIEND
+export { default as toggleFriend } from "./friend/toggleFriend.js";
+
 // OTHER
 export { default as getUser } from "./get-user.js";
 export { default as deleteUser } from "./delete-user.js";

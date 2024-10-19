@@ -43,7 +43,7 @@ const RootLayout = () => {
         <Stack.Screen name="index" options={{ headerShown: false }} />
         <Stack.Screen name="search/[query]" options={{ headerShown: false }} />
         <Stack.Screen name="event/[eventId]" options={{ headerShown: false }} />
-        <Stack.Screen name="createEvent/[eventId]" options={{ headerShown: false }} />
+        <Stack.Screen name="createEvent" options={{ headerShown: false }} />
         <Stack.Screen name="editEvent/[eventId]" options={{ headerShown: false }} />
       </Stack>
     </GlobalProvider>

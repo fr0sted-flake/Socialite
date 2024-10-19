@@ -12,7 +12,8 @@ import {
   deleteUser,
   registeredEvents,
   createdEvents,
-  searchEvents
+  searchEvents,
+  toggleFriend,
 } from "../controllers/user/index.js";
 
 
@@ -36,7 +37,8 @@ router.post("/send-verification-code", sendVerificationCode);
 router.post("/change-password", auth, changePassword);
 router.put("/", auth, imageUpload, editUser);
 
-
+// Friends routes
+router.post("/toggle-friend/:friendId", auth, toggleFriend);
 
 
 export default router;

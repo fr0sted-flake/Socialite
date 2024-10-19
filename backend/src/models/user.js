@@ -30,6 +30,12 @@ const userSchema = new Schema(
     deletedAt: {
       type: Date,
     },
+    friends: [
+      {
+        type: Schema.Types.ObjectId,
+        ref: 'User'
+      }
+    ],
     eventRegistered: [
       {
         type: Schema.Types.ObjectId,
