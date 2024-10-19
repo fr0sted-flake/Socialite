@@ -10,6 +10,7 @@ import logout from "../assets/icons/logout.png";
 import eyeHide from "../assets/icons/eye-hide.png";
 import eye from "../assets/icons/eye.png";
 import deleteAccount from "../assets/icons/delete.png"
+import halfArrow from "../assets/icons/half-arrow.png";
 
 export default {
   bookmark,
@@ -23,5 +24,6 @@ export default {
   logout,
   eyeHide,
   eye,
-  deleteAccount
+  deleteAccount,
+  halfArrow,
 };

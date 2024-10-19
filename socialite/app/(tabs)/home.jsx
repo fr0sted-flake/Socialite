@@ -1,11 +1,21 @@
 import { useState, useCallback } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { FlatList, Image, RefreshControl, Text, View, Alert } from "react-native";
+import {
+  FlatList,
+  Image,
+  RefreshControl,
+  Text,
+  View,
+  Alert,
+} from "react-native";
 import axios from "axios";
 import { images, BASE_URL } from "../../constants";
 import { EmptyState, SearchInput, EventCard, Loader } from "../../components";
 import { useGlobalContext } from "../../context/GlobalProvider";
 import { useFocusEffect } from "@react-navigation/native";
+import { TouchableOpacity } from "react-native";
+import { router } from "expo-router";
+import { icons } from "../../constants";
 
 const Home = () => {
   const { userToken } = useGlobalContext();
@@ -23,7 +33,10 @@ const Home = () => {
       });
       setEvents(response.data.events);
     } catch (error) {
-      Alert.alert("Error", error.response?.data?.resultMessage || "Failed to fetch events");
+      Alert.alert(
+        "Error",
+        error.response?.data?.resultMessage || "Failed to fetch events"
+      );
     } finally {
       setIsLoading(false); // Stop loader
     }
@@ -94,6 +107,17 @@ const Home = () => {
           <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
         }
       />
+      <TouchableOpacity
+        onPress={() => router.push("/create")}
+        className="absolute bottom-5 right-3 bg-secondary px-3 py-2 rounded-lg flex flex-row items-center justify-center shadow-lg"
+      >
+        <Image
+          source={icons.plus}
+          className="w-5 h-5 mr-2"
+          resizeMode="contain"
+        />
+        <Text className="text-primary font-psemibold text-base">Add event</Text>
+      </TouchableOpacity>
     </SafeAreaView>
   );
 };
