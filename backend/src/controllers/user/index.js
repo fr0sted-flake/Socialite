@@ -9,14 +9,6 @@ export { default as createdEvents } from "./get-created-events.js";
 //SEARCH EVENTS 
 export { default as searchEvents } from "./search-events.js";
 
-export { default as verifyEmail } from "./auth/verify-email.js";
-export { default as forgotPassword } from "./auth/forgot-password.js";
-export { default as sendVerificationCode } from "./auth/send-verification-code.js";
-
-// EDIT
-export { default as changePassword } from "./edit/change-password.js";
-export { default as editUser } from "./edit/edit-user.js";
-
 // FRIEND
 export { default as toggleFriend } from "./friend/toggleFriend.js";
 export { default as getFriends } from "./friend/getFriends.js";
