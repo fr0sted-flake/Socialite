@@ -1,0 +1,127 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-) Welcome to Socialite!",
+        "Hello, thanks for using Socialite!",
+        "Hi there, how can I help you with Socialite events?",
+        "Welcome to Socialite! How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for using Socialite!",
+        "Have a nice day! Don't forget to check our upcoming events.",
+        "Bye! Come back soon for more exciting events.",
+        "Goodbye! We hope to see you at our next event."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help! Enjoy your Socialite experience.",
+        "Any time! Don't hesitate to ask about our events.",
+        "My pleasure. Have fun socializing!"
+      ]
+    },
+    {
+      "tag": "events_near_me",
+      "patterns": [
+        "Events near me",
+        "What's happening around me?",
+        "Local events",
+        "Nearby events"
+      ],
+      "responses": [
+        "To find events near you, please make sure your location is enabled. Then, go to the 'Explore' tab and you'll see a list of events in your area.",
+        "Socialite can show you nearby events! Just enable your location and check the 'Explore' section for a curated list of local happenings."
+      ]
+    },
+    {
+      "tag": "event_price_range",
+      "patterns": [
+        "Show me events priced between",
+        "Events in price range",
+        "Affordable events",
+        "Expensive events"
+      ],
+      "responses": [
+        "You can filter events by price range in the 'Explore' tab. Use the price slider to set your desired range, and we'll show you events that fit your budget.",
+        "To find events within a specific price range, go to 'Explore', tap on 'Filters', and adjust the price slider. You'll then see events that match your budget preferences."
+      ]
+    },
+    {
+      "tag": "create_event",
+      "patterns": [
+        "How do I create an event?",
+        "Can I host an event?",
+        "Event creation process",
+        "Organize an event"
+      ],
+      "responses": [
+        "Creating an event on Socialite is easy! Go to the 'Create' tab, fill in the event details like title, date, location, and description. Then hit 'Publish' and your event will be live!",
+        "To host an event, tap the 'Create' button, enter your event information, add any tickets or registration details, and publish. It's that simple to get your event out there!"
+      ]
+    },
+    {
+      "tag": "register_event",
+      "patterns": [
+        "How to register for an event?",
+        "Sign up for an event",
+        "Join an event",
+        "Event registration process"
+      ],
+      "responses": [
+        "To register for an event, find the event you're interested in, tap on it to view details, then click the 'Register' or 'Buy Tickets' button. Follow the prompts to complete your registration.",
+        "Joining an event is simple! Browse events, select the one you like, and tap 'Register'. You may need to provide some information or purchase a ticket, depending on the event type."
+      ]
+    },
+    {
+      "tag": "cancel_registration",
+      "patterns": [
+        "How do I cancel my registration?",
+        "Can't attend an event",
+        "Withdraw from event",
+        "Refund for event"
+      ],
+      "responses": [
+        "To cancel your registration, go to 'My Events', find the event you want to cancel, and tap 'Cancel Registration'. Refund policies vary by event, so check the event details for more information.",
+        "If you can't attend an event, you can cancel your registration in 'My Events'. Select the event and choose 'Cancel Registration'. Remember to check the event's cancellation policy for any refund details."
+      ]
+    },
+    {
+      "tag": "event_categories",
+      "patterns": [
+        "What types of events are there?",
+        "Event categories",
+        "Different kinds of events",
+        "Event themes"
+      ],
+      "responses": [
+        "Socialite hosts a wide variety of events! You can find categories like Music, Sports, Arts, Technology, Food & Drink, Networking, and many more. Explore our categories to find events that interest you!",
+        "We have events for all interests! From concerts and sports games to workshops and networking meetups. Check out our category list in the 'Explore' tab to see the full range of event types."
+      ]
+    }
+  ]
+}
