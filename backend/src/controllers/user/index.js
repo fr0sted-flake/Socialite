@@ -20,6 +20,7 @@ export { default as editUser } from "./edit/edit-user.js";
 // FRIEND
 export { default as toggleFriend } from "./friend/toggleFriend.js";
 export { default as getFriends } from "./friend/getFriends.js";
+export { default as searchFriends } from "./friend/searchFriends.js";
 
 // OTHER
 export { default as getUser } from "./get-user.js";
