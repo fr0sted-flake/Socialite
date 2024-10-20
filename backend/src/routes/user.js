@@ -14,7 +14,8 @@ import {
   createdEvents,
   searchEvents,
   toggleFriend,
-  getFriends
+  getFriends,
+  searchFriends
 } from "../controllers/user/index.js";
 
 
@@ -41,6 +42,7 @@ router.put("/", auth, imageUpload, editUser);
 // Friends routes
 router.post("/toggle-friend/:friendId", auth, toggleFriend);
 router.get("/get-friends", auth, getFriends);
+router.get("/:query", auth, searchFriends);
 
 
 export default router;
