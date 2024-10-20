@@ -43,9 +43,9 @@ await mongoose
   app.use(express.static("public"));
 
   // app.use(rateLimiter);
-  app.use("/api", routes);
+  app.use("/", routes);
 
-  app.get("/api", (_req, res) => {
+  app.get("/", (_req, res) => {
     return res
       .status(200)
       .json({
